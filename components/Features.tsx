@@ -66,19 +66,7 @@ export function Features() {
           {features.map((f) => (
             <div
               key={f.title}
-              className="group relative p-7 rounded-2xl transition-all duration-300 hover:-translate-y-1 cursor-default"
-              style={{
-                background: "rgba(255,255,255,0.025)",
-                border: "1px solid rgba(255,255,255,0.05)",
-              }}
-              onMouseEnter={(e) => {
-                (e.currentTarget as HTMLDivElement).style.border = "1px solid rgba(255,255,255,0.09)";
-                (e.currentTarget as HTMLDivElement).style.background = "rgba(255,255,255,0.038)";
-              }}
-              onMouseLeave={(e) => {
-                (e.currentTarget as HTMLDivElement).style.border = "1px solid rgba(255,255,255,0.05)";
-                (e.currentTarget as HTMLDivElement).style.background = "rgba(255,255,255,0.025)";
-              }}
+              className="group relative p-7 rounded-2xl transition-all duration-300 hover:-translate-y-1 cursor-default bg-white/[0.025] border border-white/[0.05] hover:border-white/[0.09] hover:bg-white/[0.038]"
             >
               {/* top accent line */}
               <div className="absolute inset-x-0 top-0 h-px rounded-t-2xl opacity-0 group-hover:opacity-100 transition-opacity"
