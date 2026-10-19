@@ -13,7 +13,7 @@ const sections = [
     id: "overview",
     icon: Shield,
     title: "Overview",
-    body: "Againo ("we", "our", "us") is committed to protecting your privacy. This Policy explains what data we collect, how we use it, and your rights. By using Againo, you agree to the practices described here.",
+    body: 'Againo ("we", "our", "us") is committed to protecting your privacy. This Policy explains what data we collect, how we use it, and your rights. By using Againo, you agree to the practices described here.',
   },
   {
     id: "data-collected",
