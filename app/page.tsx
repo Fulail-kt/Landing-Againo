@@ -1,15 +1,15 @@
-import { Navbar } from "@/components/Navbar";
-import { Hero } from "@/components/Hero";
-import { Features } from "@/components/Features";
-import { HowItWorks } from "@/components/HowItWorks";
+import { Navbar }       from "@/components/Navbar";
+import { Hero }         from "@/components/Hero";
+import { Features }     from "@/components/Features";
+import { HowItWorks }   from "@/components/HowItWorks";
 import { Testimonials } from "@/components/Testimonials";
-import { Pricing } from "@/components/Pricing";
-import { CTA } from "@/components/CTA";
-import { Footer } from "@/components/Footer";
+import { Pricing }      from "@/components/Pricing";
+import { CTA }          from "@/components/CTA";
+import { Footer }       from "@/components/Footer";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-[#080810] noise">
+    <main className="min-h-screen bg-[#05050d]">
       <Navbar />
       <Hero />
       <Features />
